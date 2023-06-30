@@ -64,4 +64,19 @@ kubectl apply -f service.yaml
 kubectl get services
 ```
 
-# Congratulations, you have deployed your first application using Kubernetes ☸️
+### 14 - Para excluir o service e o deployment criado:
+```
+kubectl delete service minha-aplicacao-service 
+```
+```
+kubectl delete deployment minha-aplicacao 
+```
+### Verifique se os recursos foram excluídos:
+```
+kubectl get services 
+```
+```
+kubectl get deployments 
+```
+
+# 🎉 Congratulations, you have deployed your first application using Kubernetes ☸️
