@@ -1,5 +1,5 @@
 # Sample application with EKS  ☸️
-##Autor: Juan M.
+## Autor: Juan M.
 Neste tutorial aprenderemos a subir uma aplicação simples em K8s, configurando as roles de permissões, criando o Cluster EKS, Node Groups e expondo a aplicação com LoadBalancer
 ---
 
