@@ -1,4 +1,4 @@
-# Sample application with EKS 
+# Sample application with EKS  ☸️
 
 Neste tutorial aprenderemos a subir uma aplicação simples em K8s, configurando as roles de permissões, criando o Cluster EKS, Node Groups e expondo a aplicação com LoadBalancer
 ---
@@ -64,4 +64,4 @@ kubectl apply -f service.yaml
 kubectl get services
 ```
 
-# Congratulations, you have deployed your first application using Kubernetes
+# Congratulations, you have deployed your first application using Kubernetes ☸️
