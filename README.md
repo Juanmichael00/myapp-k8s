@@ -11,7 +11,7 @@ https://github.com/Juanmichael00/myapp-k8s.git
 ### 2 - Configure uma chave CLI
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
 
-### 3 - Instale o kubectl  (linux)
+### 3 - Instale o kubectl  (linux) https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 ```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
