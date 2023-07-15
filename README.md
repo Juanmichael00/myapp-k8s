@@ -1,6 +1,6 @@
 # Sample application with EKS  ☸️
 ## Autor: Juan M.
-Neste tutorial aprenderemos a subir uma aplicação simples em K8s, configurando as roles de permissões, criando o Cluster EKS, Node Groups e expondo a aplicação com LoadBalancer
+Neste tutorial aprenderemos a subir uma aplicação simples em K8s, subiremos a infraestrutura com Terraform e será exposta a aplicação com LoadBalancer
 ---
 
 ## Passo a passo
@@ -25,9 +25,9 @@ https://docs.aws.amazon.com/eks/latest/userguide/creating-a-vpc.html
 ```
 https://docs.aws.amazon.com/eks/latest/userguide/creating-a-vpc.html
 ```
-### 4 - Crie um cluster do EKS (versão 1.25) com role eks cluster atachada - politica AmazonEKSClusterPolicy
+### 4 (manual) - Crie um cluster do EKS (versão 1.25) com role eks cluster atachada - politica AmazonEKSClusterPolicy
 
-### 5 -Crie um node group no EKS criado com role "ec2" atachada com política "AmazonEKSWorkerNodePolicy", "AmazonEKS_CNI_Policy" e "AmazonEC2ContainerRegistryReadOnly"
+### 5 (manual) - Crie um node group no EKS criado com role "ec2" atachada com política "AmazonEKSWorkerNodePolicy", "AmazonEKS_CNI_Policy" e "AmazonEC2ContainerRegistryReadOnly"
 
 ### 6 - Conecte-se ao cluster EKS para atualizar o arquivo de configuração kubeconfig com as informações do seu cluster:
 ```
