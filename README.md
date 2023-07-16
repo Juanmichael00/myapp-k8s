@@ -78,5 +78,8 @@ kubectl get services
 ```
 kubectl get deployments 
 ```
+```
+terraform destroy --auto-approve
+```
 
 # 🎉 Congratulations, you have deployed your first application using Kubernetes ☸️
